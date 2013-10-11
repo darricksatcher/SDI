@@ -1,0 +1,95 @@
+//alert("JavaScript works!");
+
+//Darrick Satcher
+//SDI 1310
+//Project 1
+//Intro to javascript
+
+
+//My Variables and strings
+var startingPoint = "Alabama" , endingPoint = "Michigan";
+var newJob = "got a new job";
+var stay = "stay with family";
+var leave = "separated from family";
+var family = "wife and kids moved to Michigan";
+var MI = "moved back to Michigan";
+var AL = "I moved to Alabama."
+var FullSail = "I enrolled in school at Full Sail University."
+var pride = "proud of my decision"
+var notProud = "not proud of my decision"
+var jobSearch = "looking for employment in Michigan"
+var reunite = "reunited with family"
+var quit = "quit school"
+var numOfMonths = 15;
+var together = "My family and I moved to Michigan."
+var kid1 = 15, kid2 = 13, kid3 = 9, kid4 = 7, kid5 = 6, kid6 = 2;
+var output;
+
+//Objects
+var myChildren = {'1st Born' : 'Jailen' , '2nd Born' : 'Keontae' , '3rd Born' : 'Julian' ,
+ '4th Born' : 'Jade' , '5th Born' : 'Darrick II' , '6th Born' : 'Skye'
+};
+var Jailen = {'Age' : '14' , 'School Level' : 'High School' , 'Position in Family' :
+ 'Oldest' , 'State of Residence' : 'Michigan' , 'Which Child' : '1st child' , 'Adult' :
+  false, 'Child' : true};
+  
+var Keontae = {'Age' : '13' , 'School Level' : 'Middle School' , 'Position in Family' :
+ 'Second Oldest' , 'State of Residence' : 'Alabama' , 'Which Child' : '2nd child' , 
+ 'Adult' : false, 'Child' : true};
+ 
+var Julian = {'Age' : '9' , 'School Level' : 'Elementary School' , 'Position in Family' :
+ 'Third Oldest' , 'State of Residence' : 'Michigan' , 'Which Child' : '3rd child' ,
+  'Adult' : false, 'Child' : true};
+  
+var Jade = {'Age' : '7' , 'School Level' : 'Elementary School' , 'Position in Family' :
+ 'Forth Oldest' , 'State of Residence' : 'Michigan' , 'Which Child' : '4th child' ,
+  'Adult' : false, 'Child' : true};
+  
+var DarrickII = {'Age' : '6' , 'School Level' : 'Elementary School' , 'Position in Family' 
+: 'Fifth Oldest' , 'State of Residence' : 'Michigan', 'Which Child' : '5th child' ,
+ 'Adult' : false, 'Child' : true};
+ 
+var Skye = {'Age' : '2' , 'School Level' : 'NA' , 'Position in Family' : 'Youngest' ,
+ 'State of Residence' : 'Michigan' , 'Which Child' : '6th child' , 'Adult' : false,
+  'Child' : true};
+
+//My Arrays
+var KidsByAge = ['Jailen 15', 'Keontae 13', 'Julian 9', 'Jade 7', 'Darrick 6', 'Skye 2']
+
+
+
+
+//My Outputs
+console.log("I " + newJob + ".");
+console.log("I " + leave + ".");
+console.log("My " + family + ".");
+console.log(AL);
+console.log(FullSail);
+console.log("I'm " + pride);
+console.log("I've been " + leave); (+numOfMonths);
+console.log("I started " + jobSearch + ".");
+console.log("I " + newJob + "in Michigan.");
+console.log("I " + reunite + ".");
+console.log("Happy to be back home.");
+console.log(startingPoint === endingPoint);
+console.log("The average age of the kids in my household is " + output + ".");
+console.log(""
+
+
+//My conditionals
+
+
+//Average Age of Kid
+
+var average = function (kid1, kid2, kid3, kid4, kid5, kid6;){
+
+output = kid1 + kid2 + kid3 + kid4 + kid5 + kid6 = /6;
+
+console.log("My kids average age is " + output);
+};
+
+average();
+
+
+
+
